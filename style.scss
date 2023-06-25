@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    background-color: #000915;
+    ;
+}
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.main {
+    background-image: url(img/main.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    &__text {
+        font-weight: 600;
+        font-size: 64px;
+        padding-top: 217px;
+    }
+    &__subtext {
+        font-weight: 300;
+        font-size: 18px;
+        padding-top: 32px;
+        padding-bottom: 44px;
+    }
+    &__button {
+        margin-bottom: 493px;
+
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #fff;
+
+        width: 234px;
+        height: 48px;
+        border-radius: 30px;
+        background: #9C0332;
+        border: 0px;
+        transition: all 0.3s;
+        &:hover {
+            background: #EB443F;
+        }
+
+    }
+}
+
+.gamebox {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 128px;
+}
+
+.game {
+    width: 379px;
+    height: 300px;  
+    border-radius: 16px; 
+    transition: all 0.1s;
+    &__text {
+        size: 24px;
+        padding-top: 236px;
+        padding-left: 32px;
+    }
+    &:hover {
+        outline: 3px solid #44D2FF;
+    }
+}
+
+.game1 {
+    background-image: url(img/game1.png);
+}
+.game2 {
+    background-image: url(img/game2.png);
+}
+.game3 {
+    background-image: url(img/game3.png);
+}
