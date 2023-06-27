@@ -1,38 +1,38 @@
 /* Задание 1
-let a = Number (10);
+let a = 10;
 alert(a);
 a = 20;
 alert(a);
 */
 
 /* Задание 2
-let year = Number (2008);
+const year = 2008;
 alert(`${year} год`);
 */
 
 /* Задание 3
-let name = String(`Брендон Айк`);
+const name = `Брендон Айк`;
 alert(name);
 */
 
 /* Задание 4
-let n1 = Number(10);
-let n2 = Number(2);
-let amount = Number(n1+n2);
-let subtraction = Number(n1-n2);
-let multiplication = Number(n1*n2);
-let quotient = Number(n1/n2);
+let n1 = 10;
+let n2 = 2;
+let amount = n1+n2;
+let subtraction = n1-n2;
+let multiplication = n1*n2;
+let quotient = n1/n2;
 alert(`Сумма: ${amount}; Разность: ${subtraction}; Произведение: ${multiplication}; Частное: ${quotient}`)
 */
 
 /* Задание 5
-let result = Number(2**5)
+let result = 2**5
 alert(result)
 */
 
 /* Задание 6
-let a = Number(9);
-let b = Number(2);
+let a = 9;
+let b = 2;
 alert(a%b)
 */
 
