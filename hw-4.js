@@ -1,0 +1,53 @@
+ /*
+ let i = 0;
+ while (i<2) {
+    console.log("Привет")
+    i++
+ }
+ */
+
+/*
+ let i = 1;
+ while (i<2) {
+    console.log(i)
+    i++
+ }
+ */
+
+ /*
+ let i = 7;
+ while (i<23) {
+    console.log(i)
+    i++
+ }
+ */
+
+/*
+const obj = {
+	'Коля': '200',
+    'Вася': '300',
+    'Петя': '400',
+};
+for (let key in obj) {
+    console.log('${key} - зарплата ${obj[key]}');
+};
+*/
+
+/*
+let n = 1000;
+let num = 0;
+while (n>50) {
+    n = n/2
+    num++
+}
+console.log(num)
+console.log(n)
+*/
+
+/*
+let i=4;
+while (i<31) {
+    console.log("Сегодня пятница, ${i}-е число. Необходимо подготовить отчет.");
+    i=i+7
+}
+*/
