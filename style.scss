@@ -10,6 +10,22 @@ body {
     background-color: #000915;
     ;
 }
+.button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+
+    width: 234px;
+    height: 48px;
+    border-radius: 30px;
+    background: #9C0332;
+    border: 0px;
+    transition: all 0.3s;
+    &:hover {
+        background: #EB443F;
+    }
+}
 .center {
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
@@ -19,35 +35,19 @@ body {
     background-image: url(img/main.jpg);
     background-repeat:no-repeat;
     background-position: center center;
+    padding-top: 217px;
+    padding-bottom: 493px;
     &__text {
+        width: 788px;
         font-weight: 600;
         font-size: 64px;
-        padding-top: 217px;
     }
     &__subtext {
+        width: 481px;
         font-weight: 300;
         font-size: 18px;
         padding-top: 32px;
         padding-bottom: 44px;
-    }
-    &__button {
-        margin-bottom: 493px;
-
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        color: #fff;
-
-        width: 234px;
-        height: 48px;
-        border-radius: 30px;
-        background: #9C0332;
-        border: 0px;
-        transition: all 0.3s;
-        &:hover {
-            background: #EB443F;
-        }
-
     }
 }
 
@@ -56,7 +56,26 @@ body {
     justify-content: space-around;
     gap: 32px;
     margin-bottom: 128px;
-
+    margin-top: 128px;
+    &__text {
+        font-weight: 600;
+        font-size: 48px;
+    }
+    &__subtext {
+        font-weight: 300;
+        font-size: 18px;
+        padding-top: 32px;
+        padding-bottom: 44px;
+    }
+    &__months{
+        margin-top: 234px;
+    }
+    &__sub {
+        display: flex;
+        width: 584px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 .game {
@@ -73,7 +92,11 @@ body {
         line-height: 32px;
         color: #fff;
     }
-
+    &__img {
+        max-width: 100%;
+        height: auto;
+    }
+    
     width: 379px;
     height: 300px;
 
