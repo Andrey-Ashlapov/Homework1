@@ -9,15 +9,34 @@
         flex-wrap: nowrap;
         flex-direction: column;
         align-items: center;
-
+        padding-bottom: 238px;
+        padding-top: 238px;
         &__text {
             font-size: 32px;
             text-align: center;
+            width: 343px;
 
         }
         &__subtext {
             font-size: 14px;
             text-align: center;
+            width: 343px;
+        }
+    }
+    .gamebox {
+        &__months{
+            margin-top: 0px;
+        }
+        &__text {
+            font-size: 32px;
+            text-align: center;
+        }
+        &__subtext {
+            font-size: 14px;
+            text-align: center;
+        }
+        &__sub {
+            align-items: center;
         }
     }
 }
