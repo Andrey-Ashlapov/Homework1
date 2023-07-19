@@ -10,29 +10,7 @@ body {
   background-color: #000915;
 }
 
-.center {
-  padding-left: calc(50% - 600px);
-  padding-right: calc(50% - 600px);
-}
-
-.main {
-  background-image: url(img/main.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-.main__text {
-  font-weight: 600;
-  font-size: 64px;
-  padding-top: 217px;
-}
-.main__subtext {
-  font-weight: 300;
-  font-size: 18px;
-  padding-top: 32px;
-  padding-bottom: 44px;
-}
-.main__button {
-  margin-bottom: 493px;
+.button {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -44,8 +22,33 @@ body {
   border: 0px;
   transition: all 0.3s;
 }
-.main__button:hover {
+.button:hover {
   background: #EB443F;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.main {
+  background-image: url(img/main.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 217px;
+  padding-bottom: 493px;
+}
+.main__text {
+  width: 788px;
+  font-weight: 600;
+  font-size: 64px;
+}
+.main__subtext {
+  width: 481px;
+  font-weight: 300;
+  font-size: 18px;
+  padding-top: 32px;
+  padding-bottom: 44px;
 }
 
 .gamebox {
@@ -53,6 +56,26 @@ body {
   justify-content: space-around;
   gap: 32px;
   margin-bottom: 128px;
+  margin-top: 128px;
+}
+.gamebox__text {
+  font-weight: 600;
+  font-size: 48px;
+}
+.gamebox__subtext {
+  font-weight: 300;
+  font-size: 18px;
+  padding-top: 32px;
+  padding-bottom: 44px;
+}
+.gamebox__months {
+  margin-top: 234px;
+}
+.gamebox__sub {
+  display: flex;
+  width: 584px;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .game {
@@ -72,6 +95,10 @@ body {
   size: 24px;
   line-height: 32px;
   color: #fff;
+}
+.game__img {
+  max-width: 100%;
+  height: auto;
 }
 .game:hover {
   outline: 3px solid #44D2FF;
@@ -99,14 +126,32 @@ body {
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 238px;
+    padding-top: 238px;
   }
   .main__text {
     font-size: 32px;
     text-align: center;
+    width: 343px;
   }
   .main__subtext {
     font-size: 14px;
     text-align: center;
+    width: 343px;
+  }
+  .gamebox__months {
+    margin-top: 0px;
+  }
+  .gamebox__text {
+    font-size: 32px;
+    text-align: center;
+  }
+  .gamebox__subtext {
+    font-size: 14px;
+    text-align: center;
+  }
+  .gamebox__sub {
+    align-items: center;
   }
 }
 @media (max-width: 1240px) {

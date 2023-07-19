@@ -13,14 +13,32 @@
 </head>
 <body>
     <div class="main center">
-        <h1 class="main__text"><p>Добро пожаловать</p><p>на мой сайт !</p></h1>
-        <h2 class="main__subtext"><p>Вам предстоит пройти несколько увлекательных</p><p>игр. Если готов нажимай <b>поехали</b> и <b>приступай</b></p> </h2>
-        <button class="main__button">Поехали!</button>
+        <h1 class="main__text">Добро пожаловать на мой сайт !</h1>
+        <h2 class="main__subtext">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <b>поехали</b> и <b>приступай</b> </h2>
+        <button class="button main__button">Поехали!</button>
     </div>
     <div class="gamebox center">
         <div onclick="location.href='#'" class="game game1"><a href="#" class="game__text">Игра 1</a></div>
         <div onclick="location.href='#'" class="game game2"><a href="#" class="game__text">Игра 2</a></div>
         <div onclick="location.href='#'" class="game game3"><a href="#" class="game__text">Игра 3</a></div>
     </div>
+    <div class="gamebox gamebox__months center">
+        <div class="gamebox__sub">
+            <h2 class="gamebox__text">Времена года!</h2>
+            <h3 class="gamebox__subtext">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</h3>
+            <button class="button" onClick="month()">Играть!</button>
+        </div>
+        <img class="game__img" src="./img/controller.png" alt="controller">
+    </div>
+    <div class="gamebox gamebox__months center">
+        <img class="game__img" src="./img/controller.png" alt="controller">
+        <div class="gamebox__sub">
+            <h2 class="gamebox__text">Запомни слова</h2>
+            <h3 class="gamebox__subtext">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить</h3>
+            <button class="button" onClick="rememberWords()">Играть!</button>
+        </div>
+    </div>
+    <script src="monthScript.js"></script>
+    <script src="rememberWords.js"></script>
 </body>
 </html>
