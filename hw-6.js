@@ -114,7 +114,7 @@ function filterPositive(array) {
         }
     }
 }
-  
+
   filterPositive([-1, 0, 5, -10, 56]);
   filterPositive([-25, 25, 0, -1000, -2]);
   */
